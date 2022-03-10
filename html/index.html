@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+    <!--
+    <meta http-equiv="refresh" content="0; url =
+    https://www.youtube.com/watch?v=v13XOjIrjUw" />
+    -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Leo Le's Resume</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<main role="main">
+  <div class="container">
+  <div class="jumbotron">
+      <h1 class="display-5">What I've built</h1>
+      <p> Some displays of what I've built, and to what extent. Why extent? It's the difference between making Tetris in a game engine and making Tetris in assembly.
+      <br> <i><small>Leo Le, 621bugs@gmail.com </small></i></p>
+   </div>
+  </div>
+</main>
+
+<div class="container">
+  <div class="row" >
+      <h2>Roblox games programming (2020 - 2022)</h2> See the game demo from the video <a href="https://www.roblox.com/games/7652637125/Press-F-to-Grapple-Spiderfall-demo" class = "pl-1" download> Here</a><p class = "pl-1">
+        <div class="container">
+          <h5 style="padding-top: 0.1em;"><span class="badge badge-primary">Lua</span></h5>
+        </div>
+        <div class = "container">
+         
+          <!--
+          <iframe width="500" height="360"src="https://www.youtube.com/embed/FFTvGgeH_Yc?autoplay=1&mute=1"></iframe>
+          <iframe width="500" height="360"src="https://www.youtube.com/embed/GahdjiOYyIE?autoplay=1&mute=1"></iframe>
+          -->
+          
+            <p>
+              <br> <b>Left Video: </b> My first publicly uploaded code demo. The comments say it's cool, because it is (for a Roblox feature). 
+              <br><b>Right Video: </b> My first playtest of the demo with the left video's viewers.
+              <br>
+            </p>
+          
+            <div class = "row" >
+              <iframe width="458" height="330"src="https://www.youtube.com/embed/GahdjiOYyIE"></iframe>
+              <iframe width="458" height="330"src="https://www.youtube.com/embed/FFTvGgeH_Yc"></iframe>
+            </div>
+          </div>
+       </div>
+      <p class = "pt-3">        
+        <!--<br>- Done as a client/server validation, CFrame (rotations and position), animation (with welding and adding joints to models for animation), and general game engine learning experience. -->
+        <br> - <b>Resource management: </b> Programmed with intentions to not exceed Roblox's 50Kbps per client limit in a regular use case of ~10-20 players.
+        <br> &emsp;- <b>Clientside processing </b> of high compute features such as bullet movement, particle rendering, and fine animation details to reduce server's bandwidth / CPU use and provide smooth visuals. <!-- <small>Hopefully without too much client CPU usage, as "object caching" (a games programming principle) is not used.</small> -->
+        <br>- <b>Event-driven</b> programming to implement real-time features with reasonable network load in a client/server environment.
+        <br>- <b>Object oriented </b> design to create modular, reusable features and encapsulate objects.
+        <br>- <b>Server-side validations </b> to limit a potential hacker's ability to ruin the game.
+
+        <!--<br>- <small>Given enough time to think, I can be surprisingly passionate about the balance between client/server validation and performance.</small>-->
+        <br><small><b>credits: </b> The core bullet physics are from EtiTheSpirit, and many 3D assets are from the public.</small>
+  
+      </p>
+  </div>
+  <hr>
+</div> <!-- /container -->
+
+<div class="container">
+  <div class="row" >
+      <h2>Simple bot used by 200 chatrooms (2019) </h2> <div style="color: red;"><small> </small></div><!-- <a href="https://top.gg/bot/281888954536427522/invite" class = "pl-1" download> here </a> <p class = "pl-1"> if you own a Discord server.</p> <small> </small> -->
+      <div class="container" style="padding-bottom: 15px;">
+        <h5> <span class="badge badge-success">Node.JS</span>  <span class="badge badge-primary">SQL</span> + <span class="badge badge-warning">AWS</span> <span class="badge badge-secondary">Linux</span> </h5>
+      </div>  
+      
+      <div class = "container">
+          <div class="row">
+            <img class="img-thumbnail" width = 400px height = 300px src="./media/discord/kickv1.gif"></img>
+            <img class="img-thumbnail" width = 400px height = 300px src="./media/discord/kickv2.gif"></img>
+        </div>
+          <img class="img-thumbnail" width = 200px height = 100px src="./media/discord/catbug_snek.png"></img>
+      </div>
+
+      <p class = "pt-3">
+
+        <b><u>What's was this?</b></u> I built and <i>formerly</i> hosted a humorous chatroom utility bot with <b>AWS / GCP</b> servers and <b>MySQL</b> databases using the <a href="https://discord.js.org/#/">Discord.Js API</a>.
+        <br><u><b>What did it do?</b></u> It lets users flag one another, where if enough unique users flag one user, it performs an action on the flagged user. I built <a href="https://youtu.be/fLJBzhcSWTk?t=108">Socrate's tradjedy</a>.
+        <br> &emsp;- <b>MySQL </b> to support settings editable by the chatroom owner and log usage statistics to gain potential insights. <small>I did not host this version publicly.</small>
+
+        <br><br><b><u>Notable challenges...</b></u> 
+        <br>- <b>Hosting and Maintence: </b>Trying to keep uptime and functionality despite deprecated APIs and <a href = "https://support.discord.com/hc/en-us/articles/4413259614487-Message-Content-Intent-Alternatives-Workarounds">mandatory changes</a>.
+        <br>- <b>Managing cloud costs: </b>Reading cost reports and trimming unused resources. 
+        <br>- <b>Memory leak: </b>Keeping track of the votes that are occuring and ensuring they are deleted when they votes expire or are done. Undeleted votes would have piled up in RAM, eating memory until the next reboot.
+        <br>- <b>Protecting users: </b>Not leaking keys <small>(probably)</small> and preventing odd use cases from manipulating vote counts.
+        <!--<br>&emsp;- <b>Little resources: </b>Low RAM / CPU (free servers), so only store group/vote variables no longer than needed.-->
+      </p>
+  </div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<main role="main " style="margin-top: 2em; margin-bottom: 2em;">
+  <div class="container" >
+  <div class="jumbotron">
+      <h1 class="display-5">Not as shiny, but still relevant.</h1>
+      <p></p>
+    </div>
+  </div>
+</main>
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row" >
+      <h2> Backend - Mock banking website (School, 2019)</h2><a href="https://bughorse.com/fake-website" class = "pl-1"> </a> <p class = "pl-1"> 
+	<!-- A common first rule of cybersecurity: <b>DO NOT register with your main email/password for test sites like these</b>. Assume that the database hosted by a fresh college grad is breached! Email is not verified, so just make one up! -->
+  <div class="container" style="padding-bottom:15px; padding-top: 0px;">
+    <h5><span class="badge badge-info">PHP</span>  <span class="badge badge-primary">SQL</span>  <span class="badge badge-warning"></span></h5>
+  </div>    
+      <div class = "container">
+          <div class="row">
+          <img class="img-thumbnail" width = 250px height = 250px src="./media/bank/login.png"></img>
+          <img class="img-thumbnail" width = 250px height = 250px src="./media/bank/register.png"></img>
+          <img class="img-thumbnail" width = 250px height = 250px src="./media/bank/transfer.png"></img>
+          <img class="img-thumbnail" width = 250px height = 250px src="./media/bank/withdraw.png"></img>
+        </div>
+      </div>
+      <p class = "pt-3">
+        <br>- <b>Summary: </b> Barebones full stack web development. Designed simple schemas and wrote code to register and get/edit account information (depending on who was logged in).
+        <br>- <b>Credits: </b>I did 80% of the PHP/MySQL. Others did 80% of Bootstrap's skeleton (front end).
+        <br>- <b>Frontend + Backend collaboration: </b>I put queried data into the front end's UI. Generally, I can expect to be given a skeleton front end and being told to recycle it for the project's purposes. <small> That's how I made this resume.</small>
+        <br>- <b>Agile: </b> Set goals and presented demonstrations of progress (or lack thereof) during standup meetings.
+       </p>
+  </div>
+</div> <!-- /container -->
+<hr>
+
+</div> <!-- /container -->
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row" >
+      <h2>First game, from scratch (School, 2018) </h2> <a href="./downloads/game.jar" class = "pl-1" download> Download here. </a> <p class = "pl-1"> Java 9 required!</p>
+      <div class="container" style="padding-bottom: 15px;">
+         <h5><span class="badge badge-warning">Java</span></h5>
+      </div>  
+        <div class = "container">
+          <div class="row">
+          <img class="img-thumbnail" width = 350px height = 231px src="./media/151/cs151.gif"></img>
+          <img class="img-thumbnail" width = 350px height = 231px src="./media/151/owo.gif"></img>
+          <img class="img-thumbnail" width = 350px height = 231px src="./media/151/cadence.gif"></img>
+        </div>
+      </div>
+      <p class = "pt-3">- <b>Credits:</b> I did most (50%+) of the following: physics, map building/map swapping, and displaying score/lives. Others did the skleton GUI, bottom buttons, and improved my base code with features such as making the paddle move smoother.
+        <br>- <b>Resourcefullness: </b>Built from basic Java libraries - using an actual game engine was not allowed.
+        <br>- <b>Resourcefullness: </b>Base physics code from <a href = "https://youtu.be/K9qMm3JbOH0?t=3289">this</a> YouTube tutorial, which was severely expanded upon.
+        <br>- <b>Creativity: </b>I made a tool to make custom maps. It gave our project a custom flare during the presentation day that others did not have! <small> It was also laggy and worse than O(N^2), but a quick and dirty O(N^2) tool was all we needed.</small>
+        <!--<br>- <b>Why I had to be resourceful: </b> The professor said to pick a game and build it with <i>basic Java libraries</i> in X amount of time. Little to no information on how to program a game was given, outside of how to draw a box on a screen.
+        This was CS151, most student's first programming project: I knew that somebody in our group had to get the ball rolling...
+      -->
+      <!--
+              <br>- Professor said it was surprisingly bug free. It was not. All the assignments of that class had bugs, I just knew how to not let mine manifest <small>(Ever tried running into a wall really fast to see if you can noclip? Ball bounce position is calculated with the position of the ball relative to the cube it hit, so a ball traveling too fast and colliding with a small cube can be seen as being on the wrong side of a cube, and will therefore bounce in the wrong direction - so I made speed of the ball low).</small>
+      -->  
+        <br>
+       </p>
+  </div>
+  <hr>
+</div> <!-- /container -->
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row" >
+      <h2>Games programming class (School, 2020) </h2>
+          <div class="row">
+          <img class="img-thumbnail" width = 300px height = 300px src="./media/134/p3.backforth.gif"></img>
+              <img class="img-thumbnail" width = 300px height = 300px src="./media/134/p3.fast.gif"></img>
+          <img class="img-thumbnail" width = 300px height = 300px src="./media/134/p3.bounds.gif"></img>
+          <img class="img-thumbnail" width = 300px height = 300px src="./media/134/bounce-comp.gif"></img>
+        </div>
+      </div>
+      <p class = "pt-1">
+          <br> - <u><b>My Roblox projects were based off of and supercede this class</b></u>, so this is at the bottom of my resume. The math I learned inspired my Roblox projects, and are a reminder of why I should keep learning.   
+          <br> - I sometimes helped other students complete these assignments and troubleshoot their code, even hosted chatrooms back in college. I also ocassionally help other Roblox programmers. I generally try to help where I can, but cannot help everybody.
+          <br> - It's in C++, but I've never implemented my own C++ class. A lot of it was boilerplate from our professor. 
+          <br><br>
+
+      </p>
+  </div>
+  <hr>
+</div> <!-- /container -->
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row" >
+
+  </div>
+  <hr>
+</div> <!-- /container -->
+
+<footer class="container">
+  <p></p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
+    <!--  <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="./assets/dist/js/bootstrap.bundle.min.js"></script> -->
+    <!-- Last updated 3/9/2022-->
+  </body>
+</html>
+    
